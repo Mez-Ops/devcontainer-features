@@ -2,7 +2,7 @@ name: 'Deploy Features'
 on:
   push:
     tags:
-    - 'v*'
+      - 'v*'
 
 jobs:
   deploy: # make sure the action works on a clean machine without building
