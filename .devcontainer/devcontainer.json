@@ -1,0 +1,11 @@
+{
+    "name": "Mez Ops Dev Container",
+    "dockerFile": "Dockerfile",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "github.copilot-chat"
+            ]
+        }
+    }
+}
