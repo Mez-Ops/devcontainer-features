@@ -10,7 +10,7 @@ RUN apt-get update
 RUN apt-get install -y build-essential git unzip zip sudo
 RUN apt-get install -y clang cmake curl liblzma-dev libstdc++-12-dev libgtk-3-dev libglu1-mesa ninja-build pkg-config
 
-# RUN curl -sL https://firebase.tools | upgrade=true bash
+RUN curl -sL https://firebase.tools | upgrade=true bash
 
 # Set up Flutter
 RUN git clone --branch stable --single-branch --filter=tree:0 https://github.com/flutter/flutter $FLUTTER_SDK
