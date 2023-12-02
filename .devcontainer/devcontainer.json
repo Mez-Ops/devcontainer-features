@@ -1,6 +1,6 @@
 {
     "name": "Mez Ops Dev Container",
-    "dockerFile": "Dockerfile",
+    "dockerFile": "../Dockerfile",
     "customizations": {
         "vscode": {
             "extensions": [
