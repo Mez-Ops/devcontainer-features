@@ -20,6 +20,7 @@ RUN git clone --branch stable --single-branch --filter=tree:0 https://github.com
 RUN flutter doctor
 RUN flutter precache --web --no-android --no-ios --linux --no-windows --no-macos --no-fuchsia --no-universal
 RUN flutter clean && flutter pub get
+RUN flutter config --enable-linux-desktop
 
 # RUN NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 

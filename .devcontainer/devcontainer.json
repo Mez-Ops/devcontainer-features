@@ -4,7 +4,8 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "github.copilot-chat"
+                "github.copilot-chat",
+                "dart-code.flutter"
             ]
         }
     }
